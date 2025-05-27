@@ -1,14 +1,19 @@
 {
-  "name": "grafana-cdk-dample",
+  "name": "grafana-duckdb-aws",
   "version": "0.1.0",
   "bin": {
-    "grafana-cdk-dample": "bin/grafana-cdk-dample.js"
+    "grafana-duckdb-aws": "bin/grafana-duckdb-aws.js"
   },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "diff": "cdk diff",
+    "synth": "cdk synth",
+    "bootstrap": "cdk bootstrap"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
@@ -21,6 +26,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.181.1",
-    "constructs": "^10.0.0"
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
   }
 }

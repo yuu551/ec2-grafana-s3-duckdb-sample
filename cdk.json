@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/grafana-cdk-dample.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/grafana-duckdb-aws.ts",
   "watch": {
     "include": [
       "**"
