@@ -1,6 +1,6 @@
 # Grafana DuckDB AWS
 
-AWS CDKを使用してEC2上にGrafana OSS + DuckDBプラグインを構築し、S3データを可視化するプロジェクトです。
+AWS CDKを使用してEC2上にGrafana OSS + DuckDBプラグインを構築し、S3データを可視化します。
 
 ## 概要
 
